@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    /* align-content: center; */
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 2px 1px 2px 1px;
+}
+
+.title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(195, 120, 63, 0.918);
+    text-decoration: none;
+}
+
+.search-input {
+    height: 30px;
+    width: 300px;
+    padding: 5px 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size: medium;
+    border-radius: 19px;
+    border: 1px solid #9E9E9E;
+    outline: none;
+}
+.nav-link{
+    text-decoration: none;
+    
+    color: rgba(195, 120, 63, 0.918);
+}
+.nav-link:hover {
+    color: gray;
+}
+ul{
+    display: flex;
+    gap:30px;
+}
+ul > li{
+    text-decoration: none;
+    list-style-type: none;
+};
+

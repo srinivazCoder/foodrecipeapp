@@ -1,0 +1,40 @@
+.recipeDetailsTitle{
+    color:cyan;
+    font-size: medium;
+    font-weight: 700;
+}
+.imageDetailsPage{
+    height: 300px;
+    width:500px;
+    border-radius: 16px;
+}
+
+.imageDetailsPage:hover{
+    
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.detailsContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+    
+}
+
+.saveAsFavorites{
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    background: black;
+    border-radius: 5px;
+    border: none;
+}
+
+.ingredientsList{
+    display: flex;
+    gap: 8px;
+    font-weight: bold;
+    flex-direction: column;
+}

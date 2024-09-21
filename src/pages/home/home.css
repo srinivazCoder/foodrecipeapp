@@ -1,0 +1,17 @@
+.containerRecipe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 8px;
+    margin: auto;
+}
+
+.emptyResponse{
+    font-size: medium;
+    font-weight: bold;
+}
+
+.loading{
+    text-align: center;
+}
